@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: hsla(185, 64%, 51%, 1);
+
+  background: linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+  
+}
